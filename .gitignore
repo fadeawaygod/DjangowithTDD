@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#vscode
+.vscode
+
+#selenium's chrome driver
+chromedriver.exe
