@@ -4,7 +4,8 @@ import unittest
 class NewVisitorTest(unittest.TestCase):
 
     def setUp(self):  
-        self.browser = webdriver.Firefox()
+        #python manage.py runserver
+        self.browser = webdriver.Chrome()
 
     def tearDown(self):  
         self.browser.quit()
